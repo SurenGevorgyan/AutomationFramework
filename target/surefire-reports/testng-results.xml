@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="46" started-at="2020-01-16T01:55:18Z" finished-at="2020-01-16T01:55:18Z">
+  <suite name="Suite" duration-ms="11153" started-at="2020-01-20T23:03:43Z" finished-at="2020-01-20T23:03:54Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="46" started-at="2020-01-16T01:55:18Z" finished-at="2020-01-16T01:55:18Z">
-      <class name="TestCases.autoFramework.AppTest">
-        <test-method status="PASS" signature="shouldAnswerWithTrue()" name="shouldAnswerWithTrue" duration-ms="7" started-at="2020-01-16T01:55:18Z" finished-at="2020-01-16T01:55:18Z">
+    <test name="Test" duration-ms="11153" started-at="2020-01-20T23:03:43Z" finished-at="2020-01-20T23:03:54Z">
+      <class name="TestCases.autoFramework2.LoadPage">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:TestCases.autoFramework2.LoadPage@146044d7]" name="setupApplication" is-config="true" duration-ms="9624" started-at="2020-01-20T23:03:43Z" finished-at="2020-01-20T23:03:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- TestCases.autoFramework.AppTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:TestCases.autoFramework2.LoadPage@146044d7]" name="initDriver" duration-ms="839" started-at="2020-01-20T23:03:52Z" finished-at="2020-01-20T23:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:TestCases.autoFramework2.LoadPage@146044d7]" name="closeApplication" is-config="true" duration-ms="668" started-at="2020-01-20T23:03:53Z" finished-at="2020-01-20T23:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- TestCases.autoFramework2.LoadPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
