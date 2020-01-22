@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestCases.autoFramework2.LoadPage"/>
-      
+      <class name="TestCases.WendellAddHero"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

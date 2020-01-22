@@ -9,7 +9,8 @@ public class WendellAddHero extends Base {
 	@Test
 	public void open_page() {
 		WendellLandingPage pom = new WendellLandingPage(driver);
-		pom.google();
+		pom.ClickOnHero();
+		
 	}
 
 }
