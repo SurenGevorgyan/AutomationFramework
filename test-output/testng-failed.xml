@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.autoFramework2.LoadPage">
+      <class name="TestCases.WendellAddHero">
         <methods>
-          <include name="initDriver"/>
-          <include name="setupApplication"/>
-          <include name="closeApplication"/>
+          <include name="DriverInit"/>
+          <include name="GetParameters"/>
+          <include name="open_page"/>
         </methods>
-      </class> <!-- TestCases.autoFramework2.LoadPage -->
+      </class> <!-- TestCases.WendellAddHero -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

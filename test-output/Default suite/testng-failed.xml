@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.autoFramework2.LoadPage">
+      <class name="TestCases.WendellAddHero">
         <methods>
-          <include name="initDriver"/>
-          <include name="setupApplication"/>
-          <include name="closeApplication"/>
+          <include name="DriverInit"/>
+          <include name="GetParameters"/>
+          <include name="open_page"/>
         </methods>
-      </class> <!-- TestCases.autoFramework2.LoadPage -->
+      </class> <!-- TestCases.WendellAddHero -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
