@@ -10,7 +10,9 @@ public class WendellAddHero extends Base {
 	public void open_page() {
 		WendellLandingPage pom = new WendellLandingPage(driver);
 		pom.ClickOnHero();
-		
+		pom.setName("Buba");
+		pom.setAlias("Buba");
+		pom.ClickOnHero1();
 	}
 
 }
