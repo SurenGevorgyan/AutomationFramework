@@ -66,13 +66,11 @@ public static Properties prop;
 
 	}
 
-	/*
+	
 	@AfterSuite
 	public void TeardownTest()
     {
 		driver.close();
         
     }
-    */
-
 }
