@@ -5,7 +5,10 @@
     <classes>
       <class name="TestCases.RestTest">
         <methods>
-          <include name="post_test"/>
+          <include name="DriverInit"/>
+          <include name="GetParameters"/>
+          <include name="TeardownTest"/>
+          <include name="simple_get_test"/>
         </methods>
       </class> <!-- TestCases.RestTest -->
     </classes>

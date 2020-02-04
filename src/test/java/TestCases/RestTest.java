@@ -16,7 +16,7 @@ import io.restassured.response.Response;
 public class RestTest extends Base {
 
 	@Test
-	public void simple_get_test() {
+	public void get_test() {
 		Response response = get(prop.getProperty("rest_endpoint"));
 		System.out.println(response.asString());
 		response.then().body("id", hasItems(10));
@@ -30,9 +30,7 @@ public class RestTest extends Base {
 				.body("{\"name\": \"Lisa\",\"alias\": \"2000\"}")
 				.when()
 				.post(prop.getProperty("rest_endpoint"));
-		System.out.println("POST Response\n" + response.asString());
-		response.then().body("id", Matchers.any(Integer.class));
-		int statusCode = response.getStatusCode();
-		Assert.assertEquals(statusCode, 201 , "Correct status code returned");
-		}
+				response.then().statusCode(201);
+			}
+	
 	}
